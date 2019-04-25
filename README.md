@@ -1,4 +1,6 @@
 # vue-mui
+**技术栈**
+vue+vuex+vue-router+axios+element-ui
 
 ## Project setup
 ```
