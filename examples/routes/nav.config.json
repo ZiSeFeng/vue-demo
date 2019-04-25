@@ -1,0 +1,167 @@
+{
+  "manage": {
+    "name": "管理",
+    "path": "/manage",
+    "meta": {
+      "title": "管理"
+    },
+    "groups": [
+      {
+        "groupName": "通行证",
+        "path": "/passport",
+        "list": [
+          {
+            "path": "/setting",
+            "title": "设置",
+            "column": [
+              {
+                "path": "/index",
+                "title": "index----"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "提示",
+        "path": "/notice",
+        "list": [
+          {
+            "path": "/list",
+            "title": "提示列表",
+            "column": [
+              {
+                "path": "/index",
+                "title": "index----"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "h5游戏",
+        "path": "/h5game",
+        "list": [
+          {
+            "path": "/h5copyright",
+            "title": "h5友情链接",
+            "column": [
+              {
+                "path": "/index",
+                "title": "index----"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "网站",
+        "path": "/site",
+        "list": [
+          {
+            "path": "/banner",
+            "title": "banner 栏",
+            "groupName": "banner 栏",
+            "column": [
+              {
+                "path": "/list",
+                "title": "列表"
+              },
+              {
+                "path": "/slide",
+                "title": "滚动"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "data": {
+    "name": "数据",
+    "path": "/data",
+    "meta": {
+      "title": "数据"
+    },
+    "groups": [
+      {
+        "groupName": "预约",
+        "path": "/order",
+        "list": [
+          {
+            "path": "/list",
+            "title": "列表",
+            "column": [
+              {
+                "path": "/index",
+                "title": "index----"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "pc端",
+        "path": "/pc",
+        "list": [
+          {
+            "path": "/list",
+            "title": "列表",
+            "column": [
+              {
+                "path": "/index",
+                "title": "index----"
+              }
+            ]
+          },
+          {
+            "path": "/top",
+            "title": "pc端 顶部 左侧",
+            "groupName": "顶部",
+            "column": [
+              {
+                "path": "/left",
+                "title": "左侧"
+              },
+              {
+                "path": "/right",
+                "title": "右侧"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groupName": "移动端",
+        "path": "/mb",
+        "list": [
+          {
+            "path": "/list",
+            "title": "列表",
+            "column": [
+              {
+                "path": "/index",
+                "title": "index----"
+              }
+            ]
+          },
+          {
+            "path": "/top/left",
+            "title": "移动端 顶部 左侧",
+            "groupName": "顶部",
+            "column": [
+              {
+                "path": "/left",
+                "title": "左侧"
+              },
+              {
+                "path": "/right",
+                "title": "右侧"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
