@@ -39,3 +39,4 @@ npm run test:unit
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+vue封装组件库，vue-router使用addRoutes动态加载路由挂载实例，封装axios
